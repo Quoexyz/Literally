@@ -12,5 +12,7 @@
 ## 🤖 模型详情
 - **基座模型**: Gemma3-270M
 - **微调方式**: 全量微调 / Full Parameter Fine-Tuning
+- **训练数据**: gemma3_distill_train.jsonl(50k)
+- ![GUI](./Literally.PNG)
 ## 📄 许可证
 本项目采用 **MIT** 许可证。
