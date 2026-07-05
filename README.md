@@ -15,9 +15,9 @@
 - **训练数据**: gemma3_distill_train.jsonl(50k)
 - ![GUI](./Literally.PNG)
 ## 🚀 开始翻译
-- **pip install torch transformers customtkinter
-- **python run.py
-- **导入模型位置
-- **键入文本点击按钮即刻使用最标准的中文翻译
+- **pip install torch transformers customtkinter**
+- **python run.py**
+- **导入模型位置**
+- **键入文本点击按钮即刻使用最标准的中文翻译**
 ## 📄 许可证
 本项目采用 **MIT** 许可证。
