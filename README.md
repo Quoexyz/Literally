@@ -1,23 +1,52 @@
 # Literally
-> “有是很多细微差别到传统的翻译，并且也有很多优秀资源来帮助您放弃理解。” —— `Literally` 
+
+> “There are many subtle nuances to traditional translation, and there are also many excellent resources to help you give up understanding.” —— `Literally`
 
 在当今 AI 翻译、神经网络翻译高度发达的时代，信达雅已经成为了翻译界的标配。但这世界上缺少了一种纯粹的、机械的、毫无情商的翻译。`Literally` 旨在打破这种垄断。我们致力于剥离所有语境、颠倒所有语序，将优雅的英文拆解为最原始的词根堆砌，或者将中文以最直白的方式粗暴输出。
+
 ## ✨ 核心特性
+
 - **🔍 绝对词序固守**
 - **🔩 词性硬套机制**
 - **🤖 人工减智驱动**
+- **🔊 发音优先模式**
+- **📚 语义硬译模式**
+
+## 🧭 翻译模式
+
+`Literally` 现在提供两种截然不同的翻译体验：
+
+### 1. 精准发音（Accurate Pronunciation）
+<img width="1115" height="972" alt="lit2" src="https://github.com/user-attachments/assets/23355000-9bbb-4c23-93c0-683646de555b" />
+
+为了，或者不是为了，那 是 问题：是否 是 更 更好 在 思想 去 遭受 那些 欺负 的 运气，或者 去 拿 武器 面对 一个 海 的 麻烦，并且 通过 反对 结束 他们。
+
+### 2. 严格语义（Strict Semantics）
+<img width="1122" height="971" alt="lit1" src="https://github.com/user-attachments/assets/ae8e6c0d-f7b0-454a-ae53-13b1b1de9049" />
+
+图 比, 奥尔 纳特 图 比, 扎特 伊兹 泽 奎斯申:维泽尔 '提兹 诺布勒尔 因 泽 曼德 图 萨弗 泽 斯林兹 安德 埃罗兹 奥夫 奥特雷杰斯 福尔琴,奥尔 图 泰克 阿姆兹 阿盖恩斯特 阿 斯伊 奥夫 特拉布药兹,安德 拜 阿波辛 恩德 泽姆.
+
 ## 🤝 贡献指南
+
 我们欢迎任何旨在降低翻译质量、破坏语境逻辑的 Pull Request。
+
 > ⚠️ **警告**：任何试图让翻译结果听起来更像人类语言的提交，都将被直接关闭。
+
 ## 🤖 模型详情
-- **基座模型**: Gemma3-270M
-- **微调方式**: 全量微调 / Full Parameter Fine-Tuning
-- **训练数据**: gemma3_distill_train.jsonl(50k)
-- ![GUI](./Literally.PNG)
+
+- **基座模型**: Gemma3-270M / seq2seq
+- **微调方式**: 全量微调 / 从头训练
+- **训练数据**: gemma3_distill_train.jsonl(50k) / google10000-english
+- **输出模式**: 精准发音 / 严格语义
+
 ## 🚀 开始翻译
+
 - **pip install torch transformers customtkinter**
 - **python run.py**
 - **导入模型位置**
+- **选择翻译模式：精准发音 / 严格语义**
 - **键入文本点击按钮即刻使用最标准的中文翻译**
+
 ## 📄 许可证
+
 本项目采用 **MIT** 许可证。
