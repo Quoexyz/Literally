@@ -1,6 +1,6 @@
 # Literally
 
-> “There are many subtle nuances to traditional translation, and there are also many excellent resources to help you give up understanding.” —— `Literally`
+> “有是很多细微差别到传统的翻译，并且也有很多优秀资源来帮助您放弃理解。” —— `Literally`
 
 在当今 AI 翻译、神经网络翻译高度发达的时代，信达雅已经成为了翻译界的标配。但这世界上缺少了一种纯粹的、机械的、毫无情商的翻译。`Literally` 旨在打破这种垄断。我们致力于剥离所有语境、颠倒所有语序，将优雅的英文拆解为最原始的词根堆砌，或者将中文以最直白的方式粗暴输出。
 
