@@ -41,7 +41,7 @@
 
 ## 🚀 开始翻译
 
-- **pip install torch transformers customtkinter**
+- **pip install torch transformers customtkinter onnxruntime**
 - **python run.py**
 - **导入模型位置**
 - **选择翻译模式：精准发音 / 严格语义**
